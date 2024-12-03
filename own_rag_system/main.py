@@ -5,6 +5,7 @@ from langchain.llms import LlamaCpp
 from elasticsearch import Elasticsearch
 import pdfplumber
 import os
+# jupyter notebook --no-browser --port=8888
 
 # **Schritt 1: PDF-Inhalte extrahieren**
 def extract_text_from_pdfs(pdf_folder):
